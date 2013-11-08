@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<script type="text/javascript" src='./trace.js'></script>
+</head>
+<body>
+	<script type="text/javascript">
+
+	var google;
+	var facebook = null;
+	var twitter = {name:'twitter'}
+	var body = document.body;
+
+	// Number
+	trace(123,123.56,80/5);
+
+	function benny(n){
+	// String
+		trace(n);
+	}
+
+	benny('benny')
+
+	// Function
+	trace(benny);
+
+	// undefined
+	trace(google);
+
+	// null
+	trace(facebook)
+
+	// PlainObject
+	trace(twitter)
+
+	//HTML-Element
+	trace(body);
+	</script>
+</body>
+</html>
